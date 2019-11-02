@@ -2,62 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
+<body class="d-flex flex-column">
     <header>
-            <div class="container">
-                <div class="left headerDiv"><h1>Shruti</h1></div>
-                <div class="right">
-                    <nav>
-                            <a href="index.html" class="selected">About</a> <span class="nav-separator">|</span>
-                            <a href="portfolio.html">Portfolio</a> <span class="nav-separator">|</span>
-                            <a href="contact.html">Contact</a> 
-                    </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container">
+                    <div class="nav-header text-center">
+                        Shruti
+                    </div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a href="index.html" class="nav-item nav-link active ml-3">Home <span class="sr-only">(current)</span></a> 
+                            <a href="portfolio.html" class="nav-item nav-link ml-3">Portfolio</a> 
+                            <a href="contact.html" class="nav-item nav-link ml-3">Contact</a> 
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="clearfix"></div>
+            </nav>
     </header>
     
-    <main>
-        <div class="container">
-            <section>
-                <h2>About Me</h2>
-                <hr />
-                <div class="details">
-                    <img id="profile-image" src="assets/images/profile.jpg" alt="Shruti" />
-                    <p>I am Shruti Gaonkar. I live in Los Angeles, California.
-                        I am originally from Goa, a small state in India
-                        known mainly for its beaches, architectural monuments, and churches.</p>
-
-                    <p>As a college graduate in Computer Engineering, I was confused 
-                        as to what would be the best career option in this field given that it is so vast. 
-                        Dropping my resume in and around the city, I met my first employer through an acquaintance. 
-                        He had a start-up and was looking for freshers. That is where I landed my first job in 
-                        web development. I was mainly involved in the backend development but also got to work on 
-                        frontend over a while.</p>
-                
-                    <p>Currently, I am a homemaker and want to expand my knowledge in web development.
-                        In this field, technologies are changing rapidly and we have to keep pace with it.
-                        The Bootcamp in full-stack web development allows me to expand my web developer skills
-                        and learn the latest technologies.</p>
-
-                    <p>In my free time, I like to read books and surf the internet. I like 
-                            spending time with my family and do my bit for the environment by recycling and
-                            also gardening being my best eco-friendly hobby.</p>   
-                </div>       
-            </section>
-        </div> 
-    </main>
+    <main id="main-content">
+        <div class="container page-content mt-5 mb-5">
+                <div class="row">
+                    <div class="col-md-12 mt-3">
+                            <h1>About Me</h1><hr />
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="col-md-12">
+                        <img class="float-left mr-5" style='width:200px;' src="assets/images/profile.jpg" />
+                        <p>I am Shruti Gaonkar. I live in Los Angeles, California.
+                                I am originally from Goa, a small state in India
+                                known mainly for its beaches, architectural monuments, and churches.</p>
+            
+                        <p>As a college graduate in Computer Engineering, I was confused 
+                            as to what would be the best career option in this field given that it is so vast. 
+                            Dropping my resume in and around the city, I met my first employer through an acquaintance. 
+                            He had a start-up and was looking for freshers. That is where I landed my first job in 
+                            web development. I was mainly involved in the backend development but also got to work on 
+                            frontend over a while.</p>
+                    
+                        <p>Currently, I am a homemaker and want to expand my knowledge in web development.
+                            In this field, technologies are changing rapidly and we have to keep pace with it.
+                            The Bootcamp in full-stack web development allows me to expand my web developer skills
+                            and learn the latest technologies.</p>
+                    
+                        <p>In my free time, I like to read books and surf the internet. I like 
+                                spending time with my family and do my bit for the environment by recycling and
+                                also gardening being my best eco-friendly hobby.</p>
+                    </div>
+                </div>
+        </div>
+    </main>    
     
-    <footer class="footer">Copyright @
-            <script>
-                document.write(new Date().getFullYear());
-            </script>
+    <footer id="sticky-footer" class="py-3 footer">
+        <div class="container text-center">
+            <small>Copyright @
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+            </small>
+        </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
