@@ -375,7 +375,7 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first" data-toggle="modal" data-target="#ffModal">
+                    <div class="view view-first d-block mb-4 h-100" data-toggle="modal" data-target="#ffModal">
                         <img class="img-fluid img-thumbnail" src="assets/images/girlc.png" />
                         <div class="mask" alt="FriendFinder">
                             <p>FriendFinder</p>
@@ -414,53 +414,156 @@
 
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
-                        <a href="https://hidden-beyond-72567.herokuapp.com/" target="_blank" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/burger_img.png" />
-                            <div class="mask" alt="Eat-Da-Burger">
-                                <p>Eat-Da-Burger</p>
+                    <div class="view view-first" data-toggle="modal" data-target="#burgerModal">
+                        <img class="img-fluid img-thumbnail" src="assets/images/burger_img.png" />
+                        <div class="mask" alt="Eat-Da-Burger">
+                            <p>Eat-Da-Burger</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="burgerModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>Eat-Da-Burger!</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </a>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/burger.png" /></p>
+                                <p>Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd
+                                    like to eat.</p>
+                                <span><i class="fa fa-tag mr-2"></i>MySQL, Node, Express, Handlebars and a user defined
+                                    ORM.</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://hidden-beyond-72567.herokuapp.com/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank" href="https://github.com/shruti-gaonkar/burger"
+                                    role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
-                        <a href="https://guarded-gorge-94645.herokuapp.com/" target="_blank" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/one_good_knight.png" />
-                            <div class="mask" alt="One Good Knight">
-                                <p>One Good Knight</p>
+                    <div class="view view-first" data-toggle="modal" data-target="#ognModal">
+                        <img class="img-fluid img-thumbnail" src="assets/images/one_good_knight.png" />
+                        <div class="mask" alt="One Good Knight">
+                            <p>One Good Knight</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="ognModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>One Good Knight</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </a>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/ogn.png" /></p>
+                                <p>One Good Knight is a text-based, mobile-responsive choose your own adventure game.
+                                </p>
+                                <span><i class="fa fa-tag mr-2"></i>NodeJS, Javascript, HTMl, CSS</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://guarded-gorge-94645.herokuapp.com/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://github.com/origamiunicorn/this-is-spr-ta" role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
-                        <a href="https://young-lowlands-17486.herokuapp.com/" target="_blank"
-                            class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/news_scraper.png" />
-                            <div class="mask" alt="News Scraper">
-                                <p>News Scraper</p>
+                    <div class="view view-first" data-toggle="modal" data-target="#nsModal">
+                        <img class="img-fluid img-thumbnail" src="assets/images/news_scraper.png" />
+                        <div class="mask" alt="News Scraper">
+                            <p>News Scraper</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="nsModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>News Scraper</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </a>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/news_scraper.png" /></p>
+                                <p>News Scraper! a web app that lets users view and leave comments on the latest news.
+                                </p>
+                                <span><i class="fa fa-tag mr-2"></i>NodeJS, CSS Framework - Materialize</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://young-lowlands-17486.herokuapp.com/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://github.com/shruti-gaonkar/News-Scrape" role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
-                        <a href="https://shruti-gaonkar.github.io/clicky-game/" target="_blank"
-                            class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/clicky.png" />
-                            <div class="mask" alt="Clicky Game">
-                                <p>Clicky Game</p>
+                    <div class="view view-first" data-toggle="modal" data-target="#clickyModal">
+                        <img class="img-fluid img-thumbnail" src="assets/images/clicky.png" />
+                        <div class="mask" alt="Clicky Game">
+                            <p>Clicky Game</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="clickyModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>Clicky Game</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </a>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/clicky.png" /></p>
+                                <p>Clicky Game! is a memory game with React.</p>
+                                <span><i class="fa fa-tag mr-2"></i>NodeJS, ReactJS, CSS Framework - React
+                                    Bootstrap</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://shruti-gaonkar.github.io/clicky-game/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://github.com/shruti-gaonkar/clicky-game" role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
+                    <div class="view view-first" data-toggle="modal" data-target="#nsModal">
                         <a href="https://infinite-escarpment-63304.herokuapp.com/" target="_blank"
                             class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="assets/images/book.png" />
@@ -470,15 +573,73 @@
                         </a>
                     </div>
                 </div>
+                <div id="ffModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>FriendFinder</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/friendfinder.png" /></p>
+                                <p>A compatibility-based "FriendFinder" application that takes in results from users'
+                                    surveys, then compares their answers with those from other users. The app will then
+                                    display the name and picture of the user with the best overall match.</p>
+                                <span><i class="fa fa-tag mr-2"></i>NodeJS, Javascript, JQuery</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://glacial-cliffs-99740.herokuapp.com/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://github.com/shruti-gaonkar/FriendFinder" role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
+                    <div class="view view-first" data-toggle="modal" data-target="#nsModal">
                         <a href="https://aqueryum.herokuapp.com/" target="_blank" class="d-block mb-4 h-100">
                             <img class="img-fluid img-thumbnail" src="assets/images/aquarium.jpg" />
                             <div class="mask" alt="A-Query-Um">
                                 <p>A-Query-Um</p>
                             </div>
                         </a>
+                    </div>
+                </div>
+                <div id="ffModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>FriendFinder</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/friendfinder.png" /></p>
+                                <p>A compatibility-based "FriendFinder" application that takes in results from users'
+                                    surveys, then compares their answers with those from other users. The app will then
+                                    display the name and picture of the user with the best overall match.</p>
+                                <span><i class="fa fa-tag mr-2"></i>NodeJS, Javascript, JQuery</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://glacial-cliffs-99740.herokuapp.com/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://github.com/shruti-gaonkar/FriendFinder" role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
