@@ -126,6 +126,11 @@ h1{
 
   /*End - button css */
 
+li {
+    margin: 10px 22px 10px 0;
+    float:left;
+}
+
 #sticky-footer {
     flex-shrink: none;
 }
