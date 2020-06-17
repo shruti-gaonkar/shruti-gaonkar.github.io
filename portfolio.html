@@ -103,7 +103,8 @@
                             <div class="modal-body">
                                 <p><img src="assets/images/screen/giphy.png" /></p>
                                 <p>An application to fetch movie and cartoon GIPHY images.</p>
-                                <span><i class="fa fa-tag mr-2"></i>HTML, CSS, Javascript, Bootstrap, Jquery</span>
+                                <span><i class="fa fa-tag mr-2"></i>HTML, CSS, Javascript, Bootstrap, Jquery,
+                                    AJAX</span>
                             </div>
                             <div class="modal-footer">
                                 <a class="btn btn-info" target="_blank"
@@ -154,16 +155,42 @@
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-6">
-                    <div class="view view-first">
-                        <a href="https://shruti-gaonkar.github.io/unit-4-game/" target="_blank"
-                            class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/rpg.png" />
-                            <div class="mask" alt="RPG Game">
-                                <p>RPG Game</p>
-                            </div>
-                        </a>
+                    <div class="view view-first" data-toggle="modal" data-target="#rpgModal">
+                        <img class="img-fluid img-thumbnail" src="assets/images/rpg.png" />
+                        <div class="mask" alt="RPG Game">
+                            <p>RPG Game</p>
+                        </div>
                     </div>
                 </div>
+                <div id="rpgModal" class="modal" tabindex="-1" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    <h4>RPG Game</h4>
+                                </h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p><img src="assets/images/screen/rpg.png" /></p>
+                                <p>A browser based RPG game which enables players to choose characters and attack
+                                    enemies to gain points.</p>
+                                <span><i class="fa fa-tag mr-2"></i>HTML, CSS, Javascript, Bootstrap, Jquery</span>
+                            </div>
+                            <div class="modal-footer">
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://shruti-gaonkar.github.io/unit-4-game/" role="button">Try it
+                                    out!</a>
+                                <a class="btn btn-info" target="_blank"
+                                    href="https://github.com/shruti-gaonkar/unit-4-game" role="button">Github</a>
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="col-lg-4 col-md-4 col-6">
                     <div class="view view-first">
                         <a href="https://shruti-gaonkar.github.io/RPS-Multiplayer/" target="_blank"
